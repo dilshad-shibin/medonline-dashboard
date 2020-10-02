@@ -1,0 +1,16 @@
+<svg id="menu" xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 54 54">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #3c3f54;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <rect id="Rounded_Rectangle_3" data-name="Rounded Rectangle 3" class="cls-1" width="54" height="54" rx="20" ry="20"/>
+  <path id="Rounded_Rectangle_4_copy" data-name="Rounded Rectangle 4 copy" class="cls-2" d="M478,49h9a1,1,0,1,1,0,2h-9A1,1,0,1,1,478,49ZM467,63h9a1,1,0,0,1,1,1h0a1,1,0,0,1-1,1h-9a1,1,0,0,1-1-1h0A1,1,0,0,1,467,63Zm0-7h20a1,1,0,0,1,0,2H467A1,1,0,0,1,467,56Z" transform="translate(-450 -30)"/>
+</svg>

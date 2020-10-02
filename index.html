@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
+    <meta name="_token" content="Z1Bn0a6TgV1UzyIZldcPlKXiqT0MT5gOWF6vbFom" />
+    <title>General Dashboard &mdash; Medonline</title>
+
+    <!-- General CSS Files -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/viewer.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/components.css">
+</head>
+
+<body>
+    <div id="app">
+        <div class="main-wrapper">
+            <div class="navbar-bg"></div>
+            <nav class="navbar navbar-expand-lg main-navbar">
+                <form class="form-inline mr-auto">
+                    <ul class="navbar-nav mr-3">
+                        <li>
+                            <a href="#" data-toggle="sidebar" class="nav-link nav-link-lg" id="side-buttonToggle">
+                                <img src="assets/img/icons/menu.svg" alt="" style="height: 42px">
+                            </a>
+                        </li>
+                    </ul>
+                </form>
+                <ul class="navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle nav-link-lg nav-link-user">
+                            <img alt="image" src="assets/img/icons/account.svg" class="rounded-circle mr-1">
+                            <div class="d-sm-none d-lg-inline-block" style="color: #fff"> 04_user </div>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right" style="color: black">
+                            <div class="dropdown-divider"></div>
+                            <a href="http://localhost/medonline/log-out" class="dropdown-item has-icon text-danger">
+                                <i class="fas fa-sign-out-alt"></i> Logout
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            <div class="main-sidebar">
+                <aside id="sidebar-wrapper">
+                    <div class="user-panel">
+                        <img src="assets/img/avatar/dummy_logo.png" alt="" class="img-circle img-fluid">
+                    </div>
+                    <div class="sidebar-brand">
+                        <a href="index.html">Med Online</a>
+                        <h6 class="mb-3">Banglore</h6>
+                    </div>
+                    <div class="sidebar-brand sidebar-brand-sm">
+                        <a href="#">MO</a>
+                    </div>
+                    <hr class="sidebar-divider">
+                    <ul class="sidebar-menu" id="accordion">
+                        <li class="nav-item dropdown">
+                            <a href='#' class="nav-link ">
+                                <img src="assets/img/icons/dashboard.svg" alt="" class="mr-3 img-size">
+                                <span>Dashboard</span>
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href='http://localhost/medonline' class="nav-link has-dropdown" data-toggle="dropdown" aria-expanded="false">
+                                <img src="assets/img/icons/list_of_orders.svg" alt="" class="mr-3 img-size">
+                                <span>List Of Orders</span>
+                            </a>
+
+                            <ul class="dropdown-menu">
+                                <li><a href='#' class="nav-link">Prescription Verification Pending</a></li>
+
+                                <li><a href='#' class="nav-link">Customer Confirmed</a></li>
+
+                                <li><a href='#' class="nav-link">Confirmation Pending</a></li>
+
+                                <li><a href='#' class="nav-link">Confirmed</a></li>
+
+                                <li><a href='#' class="nav-link">Order Invoiced</a></li>
+
+                                <li><a href='#' class="nav-link">Order Intransit</a></li>
+
+                                <li><a href='#' class="nav-link">Order Delivered</a></li>
+
+                                <li><a href='#' class="nav-link">Order cancelled</a></li>
+
+                                <li><a href='#' class="nav-link">All Orders</a></li>
+
+                                <li><a href='#' class="nav-link">Change Order Status</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href='#' class="nav-link">
+                                <img src="assets/img/icons/settings.svg" alt="" class="mr-3 img-size">
+                                <span>Settings</span>
+                            </a>
+                        </li>
+                    </ul>
+                </aside>
+
+                <footer class="main-footer">
+                    <div class="footer-content">
+                        <a href=""><small class="mr-2">Powered By</small> <img src="assets/img/rhombus_logo.png" alt="" style="width: 100px"></a>
+                    </div>
+                </footer>
+            </div>
+
+            <!-- Main Content -->
+            <div class="main-content">
+
+                <section class="section">
+                    <div class="container-fluid">
+                        <div class="section-header">
+                            <h1>Dashboard</h1>
+                        </div>
+                        <div class="row">
+                            <!-- Ordered List Card Example -->
+                            <div class="col mb-4">
+                                <a class="nav-link" href="OrderDetails">
+                                    <div class="card shadow h-100 box-1">
+                                        <div class="card-body" style="padding: 0px">
+                                            <div class="pl-3">
+                                                <img src="assets/img/icons/icon_01.svg" alt="icons-1" class="img-size2">
+                                                <h3 class="counter">205</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <small>Pending Prescription <br> Verifications</small>
+                                </a>
+
+                            </div>
+
+
+                            <div class="col mb-4">
+                                <a class="nav-link" href="CustomerConfirmed">
+                                    <div class="card shadow h-100 box-2">
+                                        <div class="card-body" style="padding: 0px">
+                                            <div class="pl-3">
+                                                <img src="assets/img/icons/icon_02.svg" alt="" class="img-size2">
+                                                <h3 class="counter">128</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <small>Pending Customer <br>Confirmed Verifications</small>
+                                </a>
+                            </div>
+
+
+                            <div class="col mb-4">
+                                <a class="nav-link" href="confirm_pending">
+                                    <div class="card shadow h-100 box-3">
+                                        <div class="card-body" style="padding: 0px">
+                                            <div class="pl-3">
+                                                <img src="assets/img/icons/icon_03.svg" alt="" class="img-size2">
+                                                <h3 class="counter">109</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <small>Pending Confirmations</small>
+                                </a>
+                            </div>
+
+
+                            <div class="col mb-4">
+                                <a class="nav-link" href="confirmed_list">
+                                    <div class="card shadow h-100 box-4">
+                                        <div class="card-body" style="padding: 0px">
+                                            <div class="pl-3">
+                                                <img src="assets/img/icons/icon_04.svg" alt="" class="img-size2">
+                                                <h3 class="counter">352</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <small>Confirmed Orders</small>
+                                </a>
+                            </div>
+
+
+                            <div class="col mb-4">
+                                <a class="nav-link" href="invoice_list">
+                                    <div class="card shadow h-100 box-5">
+                                        <div class="card-body" style="padding: 0px">
+                                            <div class="pl-3">
+                                                <img src="assets/img/icons/icon_05.svg" alt="" class="img-size2">
+                                                <h3 class="counter">256</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <small>Invoiced Orders</small>
+                                </a>
+                            </div>
+
+                        </div>
+                        <!-- /row -->
+
+                        <div class="row">
+                            <div class="col mb-4">
+                                <a class="nav-link" href="OrderIntransit">
+                                    <div class="card shadow h-100 box-6">
+                                        <div class="card-body" style="padding: 0px">
+                                            <div class="pl-3">
+                                                <img src="assets/img/icons/icon_06.svg" alt="" class="img-size2">
+                                                <h3 class="counter">168</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <small>Intransit Orders</small>
+                                </a>
+                            </div>
+
+
+                            <div class="col mb-4">
+                                <a class="nav-link" href="deliverd_list">
+                                    <div class="card shadow h-100 box-7">
+                                        <div class="card-body" style="padding: 0px">
+                                            <div class="pl-3">
+                                                <!-- <i class="fas fa-truck icon-frontpage text-gray-300"></i> -->
+                                                <img src="assets/img/icons/icon_07.svg" alt="" class="img-size2">
+                                                <h3 class="counter">1026</h3>
+                                                <!-- <span class="font-weight-bold text-warning">Order Delivered</span> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <small>Delivered Orders</small>
+                                </a>
+                            </div>
+
+
+                            <div class="col mb-4">
+                                <a class="nav-link" href="supportCancelled">
+                                    <div class="card shadow h-100 box-8">
+                                        <div class="card-body" style="padding: 0px">
+                                            <div class="pl-3">
+                                                <!-- <i class="far fa-newspaper icon-frontpage text-gray-300"></i> -->
+                                                <img src="assets/img/icons/icon_08.svg" alt="" class="img-size2">
+                                                <h3 class="counter">536</h3>
+                                                <!-- <span class="font-weight-bold text-success">Support Cancelled</span> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <small>Support Cancelled Orders</small>
+                                </a>
+                            </div>
+
+                            <div class="col mb-4">
+                                <a class="nav-link" href="AllOrders">
+                                    <div class="card shadow h-100 box-9">
+                                        <div class="card-body" style="padding: 0px">
+                                            <div class="pl-3">
+                                                <!-- <i class="fas fa-clipboard-list icon-frontpage text-gray-300"></i> -->
+                                                <img src="assets/img/icons/icon_09.svg" alt="" class="img-size2">
+                                                <h3 class="counter">2638</h3>
+                                                <!-- <span class="font-weight-bold text-info">All Oders</span> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <small>All Orders</small>
+                                </a>
+                            </div>
+
+                            <div class="col mb-4">
+                                <a class="nav-link" href="orderlist">
+                                    <div class="card shadow h-100 box-10">
+                                        <div class="card-body" style="padding: 0px">
+                                            <div class="pl-3">
+                                                <!-- <i class="far fa-newspaper icon-frontpage text-gray-300"></i> -->
+                                                <img src="assets/img/icons/icon_10.svg" alt="" class="img-size2">
+                                                <h3 class="counter">144</h3>
+                                                <!-- <span class="font-weight-bold text-warning">Change Order Status</span> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <small>Order Query</small>
+                                </a>
+                            </div>
+
+                            <!-- Content Row -->
+                        </div>
+
+
+
+                    </div>
+
+
+                </section>
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script> -->
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script> -->
+    <script src="assets/js/popper.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.7.6/jquery.nicescroll.min.js"></script> -->
+    <script src="assets/js/jquery.nicescroll.min.js"></script>
+    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.7.6/jquery.nicescroll.min.js"></script> -->
+    <script src="assets/js/jquery.nicescroll.min.js"></script>
+    <script src="assets/js/stisla.js"></script>
+    <script src="assets/js/scripts.js"></script>
+    <script src="assets/js/custom.js"></script>
+
+
+
+
+    <script>
+        $('#side-buttonToggle').on('click', function() {
+            $('.main-footer').toggle();
+            $('.user-panel').toggle()
+        })
+    </script>
+
+
+
+
+
+
+
+
+
+
+    <script>
+        (function() {
+            $(".panel").on("show.bs.collapse hide.bs.collapse", function(e) {
+                if (e.type == 'show') {
+                    $(this).addClass('active');
+                } else {
+                    $(this).removeClass('active');
+                }
+            });
+        }).call(this);
+    </script>
+    <script>
+        $("#filter_branch").change(function() {
+
+            var mybranch = $("#filter_branch").val();
+
+
+            var CSRF_TOKEN = $('meta[name="_token"]').attr('content');
+            $.ajax({
+                url: "http://localhost/medonline/changemybranch",
+                type: 'POST',
+                data: {
+                    _token: CSRF_TOKEN,
+                    mybranch: mybranch
+                },
+
+                success: function(data) {
+                    location.reload();
+                }
+
+            });
+        });
+    </script>
+
+
+
+</body>
+
+</html>

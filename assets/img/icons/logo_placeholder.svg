@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="262" height="263" viewBox="0 0 262 263">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        opacity: 0.7;
+      }
+
+      .cls-3 {
+        opacity: 0.4;
+      }
+
+      .cls-4 {
+        opacity: 0.1;
+      }
+    </style>
+  </defs>
+  <circle class="cls-1" cx="131" cy="132" r="96"/>
+  <circle id="Ellipse_5_copy" data-name="Ellipse 5 copy" class="cls-2" cx="131" cy="132" r="108"/>
+  <circle id="Ellipse_5_copy_2" data-name="Ellipse 5 copy 2" class="cls-3" cx="131" cy="132" r="120"/>
+  <circle id="Ellipse_5_copy_3" data-name="Ellipse 5 copy 3" class="cls-4" cx="131" cy="132" r="131"/>
+</svg>

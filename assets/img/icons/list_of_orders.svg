@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="20" viewBox="0 0 25 20">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="list_of_orders" class="cls-1" d="M61,544H84a1,1,0,0,1,0,2H61A1,1,0,0,1,61,544Zm0,18H84a1,1,0,0,1,1,1h0a1,1,0,0,1-1,1H61a1,1,0,0,1-1-1h0A1,1,0,0,1,61,562Zm0-9H84a1,1,0,0,1,0,2H61A1,1,0,0,1,61,553Z" transform="translate(-60 -544)"/>
+</svg>

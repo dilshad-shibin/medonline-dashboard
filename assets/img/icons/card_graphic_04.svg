@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="229" height="184" viewBox="0 0 229 184">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+        opacity: 0.15;
+      }
+    </style>
+  </defs>
+  <path id="card_graphic_04" class="cls-1" d="M1453,370v47H1332V392h96V370h25Zm82,154a36,36,0,1,0-55.9,30h-34.36a62,62,0,1,1,108.52,0H1518.9A35.968,35.968,0,0,0,1535,524Z" transform="translate(-1332 -370)"/>
+</svg>
